@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <div class="icon">
+          <p id="text">Sameer.<span>Travels</span></p>
+        </div>
+        <div class="features">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contacts Us</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col1">
+          <h1>
+            discovering <br />
+            the <span>world</span>.
+          </h1>
+          <p>
+            Through travel, individuals have the opportunity to immerse
+            themselves in different cultures, try new foods, and witness the
+            beauty of nature. Exploring new places can also challenge one's
+            comfort zone and help to develop important life skills.
+          </p>
+          <div class="btns">
+            <button id="rm">Read More</button>
+            <button id="ob">Our Blogs</button>
+          </div>
+          <div class="arrows">
+            <span><div class="left-arrow"><i class="fa-solid fa-chevron-left"></i></div></span>
+            <span><div class="right-arrow"><i class="fa-solid fa-chevron-right"></i></div></span>
+          </div>
+        </div>
+        <div class="col2">
+          <form>
+            <h3>Where You want to go?</h3>
+            <div class="form_group">
+              <label for="destination">Destination</label>
+              <input type="text" name="destination" id="destination" placeholder="Enter destination">
+            </div>
+            <div class="form_group">
+              <label for="date">Date</label>
+              <input type="text" name="date" id="date" placeholder="DD/MM/YY">
+            </div>
+            <button type="submit">Check travel package</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </body>
+</html>
